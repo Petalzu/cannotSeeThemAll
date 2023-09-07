@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CannotSeeThemAll</title>
+    <link rel="stylesheet" href="main.css">
+    
+</head>
+<body>
+
+    <div style="position: relative;margin-left: 37%;">
+        <br><br>
+        <h1 >你见不到他们三个同行</h1><br><br>    </div>
+        <div class="switch-box" style="text-align: right">
+            <input id="switchButton" type="checkbox" class="switch" onclick="check()"/>
+            <label for="switchButton" style="text-align: right"></label>
+            <p style="position:relative;top:-40px;right:-60px;">罗兰</p>
+            <img src="roland.png" alt="roland" style="position:relative;top:-120px;right: -80px ;height:120px">
+        </div>
+        <div class="switch-box2">
+            <input id="switchButton2" type="checkbox" class="switch" onclick="check1()"/>
+            <label for="switchButton2"></label>
+            <p style="position:relative;top:-40px;right:-60px;">阿尔加利亚</p>
+            <img src="Argalia.png" alt="Argalia" style="position:relative;top:-150px;right: -110px ;height:120px">
+        </div>
+        <!--在box右侧加入字-->
+        <div class="switch-box3">
+            <input id="switchButton3" type="checkbox" class="switch" onclick="check2()"/>
+            <label for="switchButton3"></label>
+            <p style="position:relative;top:-40px;right:-60px;">安吉丽卡</p>
+            <img src="ajlk.png" alt="anjk" style="position:relative;top:-150px;right: -110px ;height:120px">
+        </div><br>
+
+    <script>
+    function check(){
+        let checkBox2 = document.getElementById("switchButton2").checked;
+        let checkBox3 = document.getElementById("switchButton3").checked;
+        if(checkBox2 && checkBox3){
+            //随机if一个
+            let random = Math.random();
+            if(random < 0.7){
+                document.getElementById("switchButton2").checked = false;
+            }else{
+            document.getElementById("switchButton3").checked = false;
+            }
+        }
+    }
+    function check1(){
+        let checkBox1 = document.getElementById("switchButton").checked;
+        let checkBox3 = document.getElementById("switchButton3").checked;
+        if(checkBox1 && checkBox3){
+            //随机if一个
+            let random = Math.random();
+            if(random < 0.3){
+                document.getElementById("switchButton").checked = false;
+            }else{
+            document.getElementById("switchButton3").checked = false;
+            }
+        }
+    }
+    function check2(){
+        let checkBox1 = document.getElementById("switchButton").checked;
+        let checkBox2 = document.getElementById("switchButton2").checked;
+        if(checkBox1 && checkBox2){
+            //随机if一个
+            let random = Math.random();
+            if(random < 0.7){
+                document.getElementById("switchButton").checked = false;
+            }else{
+            document.getElementById("switchButton2").checked = false;
+            }
+        }
+    }
+    </script>
+</html>
