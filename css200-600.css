@@ -8,7 +8,7 @@ body {font:normal 100% Arial,sans-serif;font-size:14px; font-size:1.4rem; }
 .switch-box {
     width: 48px;
     position: relative;
-    margin-left: 43%;
+    margin-left: 20%;
     margin-right: auto;
 }
 
@@ -74,7 +74,7 @@ body {font:normal 100% Arial,sans-serif;font-size:14px; font-size:1.4rem; }
 .switch-box2 {
     width: 48px;
     position: relative;
-    margin-left: 43%;
+    margin-left: 20%;
     margin-right: auto;
 }
 .switch-box2 .switch {
@@ -125,11 +125,10 @@ body {font:normal 100% Arial,sans-serif;font-size:14px; font-size:1.4rem; }
     background-color: #13ce66;
 }
 
-
 .switch-box3 {
     width: 48px;
     position: relative;
-    margin-left: 43%;
+    margin-left: 20%;
     margin-right: auto;
 }
 .switch-box3 .switch {
@@ -199,8 +198,6 @@ body {font:normal 100% Arial,sans-serif;font-size:14px; font-size:1.4rem; }
 .footer:hover{
     text-decoration: underline;
 }
-
-
 
 
 .highlight {

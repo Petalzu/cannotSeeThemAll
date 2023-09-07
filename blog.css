@@ -1,70 +1,9 @@
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-hr,
-dl,
-dd,
-ol,
-ul,
-figure {
-  margin: 0;
-  padding: 0;
-}
-body {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  font-weight: 300;
-  color: #111;
-  background-color: #fdfdfd;
-  -webkit-text-size-adjust: 100%;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-ul,
-ol,
-dl,
-figure,
+
 .highlight {
   margin-bottom: 15px;
 }
 
-figure > img {
-  display: block;
-}
-figcaption {
-  font-size: 14px;
-}
-ul,
-ol {
-  margin-left: 30px;
-}
-li > ul,
-li > ol {
-  margin-bottom: 0;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 300;
-}
+
 a {
   color: #2a7ae2;
   text-decoration: none;
@@ -230,15 +169,15 @@ pre > code {
   float: left;
   margin-bottom: 15px;
   padding-left: 0px;
-  margin-left: 95px;
+  margin-left: auto;
 }
 .footer-col-1 {
   width: -webkit-calc(35% - (30px / 2));
-  width: calc(35% - (500px / 2));
+  width: calc(35% - (100px / 2));
 }
 .footer-col-2 {
   width: -webkit-calc(40% - (30px / 2));
-  width: calc(40% - (400px / 2));
+  width: calc(40% - (200px / 2));
 }
 .footer-col-3 {
   width: -webkit-calc(45% - (30px / 2));

@@ -5,16 +5,17 @@
     <meta charset="UTF-8">
     <title>CannotSeeThemAll</title>
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="blog.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 200px) and (max-device-width: 600px)" href="css200-600.css" />
+
 </head>
 <body >
 
-    <div style="position: relative">
+    <div>
         <br><br>
-        <h1 style="text-align: center;">你见不到他们三个同行</h1><br><br>    </div>
-        <div class="switch-box" style="text-align: right">
+        <h1 style="text-align: center">你见不到他们三个同行</h1><br><br>    </div>
+        <div class="switch-box" >
             <input id="switchButton" type="checkbox" class="switch" onclick="check()"/>
-            <label for="switchButton" style="text-align: right"></label>
+            <label for="switchButton"></label>
             <p style="position:relative;top:-40px;right:-60px;">罗兰</p>
             <img src="roland.png" alt="roland" style="position:relative;top:-120px;right: -80px ;height:120px">
         </div>
@@ -31,6 +32,7 @@
             <p style="position:relative;top:-40px;right:-60px;">安吉丽卡</p>
             <img src="ajlk.png" alt="anjk" style="position:relative;top:-150px;right: -110px ;height:120px">
         </div><br>
+    </div>
 
     <script>
     function check(){
