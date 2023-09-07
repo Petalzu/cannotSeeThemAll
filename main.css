@@ -173,3 +173,23 @@
     background-color: #13ce66;
 }
 
+.footer{
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+.footer:hover{
+    text-decoration: underline;
+}
+
